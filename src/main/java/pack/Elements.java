@@ -10,7 +10,7 @@ public class Elements {
 		WebDriver driver;
 	
 		private static String Email = new String("bigfishx@icloud.com");
-		private static String pass = new String("NaiaMishu1");
+		private static String pass = new String("-----------");
 		
 		public String getTitle() {
 			return driver.findElement(By.xpath("//*[@id=\"profile_login\"]/main/div[1]/section/div[1]/h2")).getText();
